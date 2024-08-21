@@ -8,6 +8,9 @@ app.set('view engine', 'ejs');
 app.get('/', (req, res) => {
   res.render('index');
 });
+app.get('/', (req, res) => {
+  res.send('index');
+});
 
 // Start the server on port 3000
 const port = 3000;
