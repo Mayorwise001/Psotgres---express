@@ -5,9 +5,9 @@ const app = express();
 app.set('view engine', 'ejs');
 
 // Define a route for the homepage
-app.get('/', (req, res) => {
-  res.render('index');
-});
+// app.get('/', (req, res) => {
+//   res.render('index');
+// });
 app.get('/', (req, res) => {
   res.send('index');
 });
